@@ -27,7 +27,6 @@ def test_primate():
     primate = Primate("Chimpanzee", "Pan troglodytes")
     assert primate.climb_trees() == "Chimpanzee the Pan troglodytes is climbing trees"
 
-
 def test_marsupial():
     marsupial = Marsupial("Kangaroo", "Macropus")
     assert marsupial.carry_baby() == "Kangaroo the Macropus is carrying its baby"
