@@ -3,9 +3,10 @@ class Animal:
     def __init__(self, name, species):
         self.name = name
         self.species = species
+        
 
     def speak(self):
-        return "Animal sound" #This needs to change!
+        return "Animal sound" 
     
 class Mammal(Animal):
 
@@ -53,5 +54,5 @@ class Aviary:
 
 class ReptileEnclosure:
 
-    def __init__(self):
-        self.reptiles = []
+    def __init__(self, reptiles = []):
+        self.reptiles = reptiles
